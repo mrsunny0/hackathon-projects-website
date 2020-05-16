@@ -19,6 +19,6 @@ background:
 
 # Google-analytics
 google-analytics:
-  id: "UA-UA-161447266-8"
+  id: "UA-161447266-8"
 
 exclude: ['package.json', 'src' , 'node_modules']
