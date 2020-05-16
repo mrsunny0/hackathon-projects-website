@@ -1,0 +1,141 @@
+- id: id4
+  heading: Hackathons
+  description: description
+  group: 
+  - subheading: Technology (2014-2015)
+    subgroup: 
+      - img: assets/img/250.png
+        caption: Liveworx Mobility Hackathon, this is where we met steve wozniak 
+        alt: xxx
+        content:
+          url: https://www.youtube.com/watch?v=BzpZbCQDGaM
+      - img: assets/img/500.png
+        caption: Intel Developer Hackathon
+        alt: yyy
+        content:
+          url: https://newsroom.intel.com/press-kits/intel-developer-forum-san-francisco-2015/
+    
+  - subheading: Art & Fashion (2015 & 2016)
+    img: assets/img/250.png
+    caption: Participated in the hacking arts. The first project was using facial recogniztion of Intel's new <a href="https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html">RealSense Technology</a>
+    alt:
+    content:
+      url: https://mrsunny0.github.io/template-gh-pages/
+    
+  - subheading: Design & Media (2016)
+    img: assets/img/250.png
+    caption: I actually facilitated this competition with the Design Lab
+    alt:
+    content:
+      url: https://mrsunny0.github.io/template-gh-pages/
+    
+  - subheading: Healthtech (2014-2018)
+    subgroup: 
+      - img: assets/img/250.png
+        caption: Hacking pediatrics (2014)
+        alt: xxx
+        content:
+          url: http://www.hackingpediatrics.com/
+      - img: assets/img/500.png
+        caption: Grand Hack (2015) 
+        alt: yyy
+        content:
+          url: https://grandhack.mit.edu/
+      - img: assets/img/500.png
+        caption: Sloan Healthcare Innovation Prize (2018)
+        alt: yyy
+        content:
+          url: http://www.sloan-hbc.mit.edu/
+          
+- id: id1
+  heading: Music
+  description: description
+  group: 
+    - subheading: Air Guitar
+      subgroup: 
+        - img: assets/img/250.png
+          caption: xxx
+          alt: xxx
+          content:
+            url: https://www.instructables.com/id/Air-Guitar/
+
+        - img: assets/img/500.png
+          caption: yyy
+          alt: yyy
+          content:
+            youtube: https://www.youtube.com/embed/XT88i8xv_sg
+      
+    - subheading: Interactive DJ
+      subgroup: 
+        - img: assets/img/250.png
+          caption: xxx
+          alt: xxx
+          content:
+            youtube: https://www.youtube.com/embed/F6OSh8guKlE
+
+        - img: assets/img/500.png
+          caption: yyy
+          alt: yyy
+          content:
+            youtube: https://www.youtube.com/embed/4wiQNlH6ooY
+
+        - img: assets/img/500.png
+          caption: yyy
+          alt: yyy
+          content:
+            youtube: https://www.youtube.com/embed/SomgTNd4GyY
+
+- id: id2
+  heading: Wearables
+  description: description
+  group: 
+  - subheading: AI Projects
+    subgroup: 
+      - img: assets/img/250.png
+        caption: pizza
+        alt: pizza
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+
+      - img: assets/img/250.png
+        caption: pizza
+        alt: pizza
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+
+      - img: assets/img/250.png
+        caption: pizza
+        alt: pizza
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html                    
+
+- id: id3
+  heading: Artificial Intelligence
+  description: description
+  group: 
+  - subheading: Pinar Yanardag
+    img: assets/img/250.png
+    content:
+      url: https://howtogeneratealmostanything.com/
+  - subheading: AI Projects
+    subgroup: 
+      - img: assets/img/250.png
+        caption: pizza
+        alt: pizza
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+      - img: assets/img/500.png
+        caption: perfume
+        alt: perfume
+        content:
+          url: https://howtogeneratealmostanything.com/perfume/2018/09/17/episode4.html
+      - img: assets/img/500.png
+        caption: chocolate
+        alt: chocolate
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/10/10/episode6.html
+      - img: assets/img/500.png
+        caption: virus
+        alt: virus
+        content:
+          url: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html

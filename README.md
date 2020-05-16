@@ -1,29 +1,49 @@
-## Won Hackathons
+# Project Portfolio
 
-- Intel - Air guitar link: https://www.instructables.com/id/Air-Guitar/
-- Liveworx Hackathon: https://www.youtube.com/watch?v=BzpZbCQDGaM
+Website of Project Portfolio for github pages
 
-## Participation
+## Website Purpose
 
-- Hacking arts (2015 & 2016) - https://arts.mit.edu/start/entrepreneurship/hacking-arts/
-- Design Driven Innovation (2016) - https://design.mit.edu/events-classes/design-driven-innovation-2016
-- Connected Care Hackathon (2017) - https://design.mit.edu/hackathon-2017
-- Healthtech Hackathons
-  - Hacking pediatrics (2014) - http://www.hackingpediatrics.com/
-  - Hack MS (2015) - https://medtechboston.medstro.com/blog/2015/02/16/hackms-developing-stress-management-solutions/
-  - Grand Hack (2015) - https://grandhack.mit.edu/
-  - Sloan Healthcare Innovation Prize (2018) - http://www.sloan-hbc.mit.edu/
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## How to generate almost anything
+## Built With
 
-- webpage: https://howtogeneratealmostanything.com/
-- pizza: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
-- perfume: https://howtogeneratealmostanything.com/perfume/2018/09/17/episode4.html
-- chocolate: https://howtogeneratealmostanything.com/food/2018/10/10/episode6.html
-- virus: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
+### From-end tools
+* [Github Pages](https://rometools.github.io/rome/) - Used to host 
+* [HTM5, CSS3, and SCSS](https://rometools.github.io/rome/) - Front-end web technology
+* [Jekyll](https://maven.apache.org/) - Framework to render site on github
+* [Gulp 4](https://rometools.github.io/rome/) - Development framework to build locally
+* [VSCode](http://www.dropwizard.io/1.0.2/docs/) - Popular IDE that was developed on
 
-## Demo Videos
+### Conventions
+* [BEM](http://getbem.com/) - A useful methodology for working with HTML and CSS
 
-- Airguitar
-- Backpack
-- ...
+### Multi-media software
+* [ffmpeg](https://www.ffmpeg.org/) - converting and compressing videos of all types
+* [imagemagick](https://imagemagick.org/index.php) - converting image file formats 
+* [Fiji (imageJ)](https://fiji.sc/) - an frequently used academic software tool used for biological image processing, but has its use in a versatile range of image processing applications.
+* [illustrator](https://www.adobe.com/products/illustrator.html) - creating vectorized designs and logos
+* [photoshop](https://www.adobe.com/products/photoshop.html) - touching up images
+* [powerpoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) - used to collage images for quick prototyping
+
+### Online resources
+* [pexels](https://www.pexels.com/) - great resource for free usable images
+* [unsplash](https://unsplash.com/) - another great resource for gree and usable images
+* [coverr](https://coverr.co/) - an amazing website with stock cover videos
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **George L. Sun** - *Main Contributor* - [Personal Page](https://github.com/mrsunny0)
+* **Sun Websites** - *Host* - [Company Page]()
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. (*Currently under development*)
+
+## Acknowledgments
+
+* Name specific people/org here
