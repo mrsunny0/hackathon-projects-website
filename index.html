@@ -32,7 +32,6 @@ layout : custom
 
                     {% for subgroup in group.subgroup %}
                     <div class="carousel__item carousel__item--image carousel__item--fade">
-                        <!-- <img class="image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}"> -->
                         <div class="figure">
                             <img class="figure__image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
                             <p class="figure__caption">
@@ -60,7 +59,7 @@ layout : custom
 
                 {% for subgroup in group.subgroup %}
                 <div class="carousel__item carousel__item--paragraph fade">
-                    <p class="paragraph">{{ subgroup.caption }}</p>
+                    <p class="paragraph paragraph--justalign">{{ subgroup.caption }}</p>
                 </div>
                 {% endfor %}
             </div>
@@ -74,11 +73,13 @@ layout : custom
                         Learn<br>more
                     </a>
                 </p>
-            </div>
+            </div> 
             
             <!-- fake dot container to buffer space -->
             <div class="carousel__dot-container"><span class="carousel__dots carousel__dots--hidden"></span></div>
-            <p class="paragraph">{{ group.caption }}</p>
+            
+            <!-- paragraph -->
+            <p class="paragraph paragraph--justalign">{{ group.caption }}</p>
             {% endif %}
         </div>
         {% endfor %}
@@ -111,7 +112,7 @@ layout : custom
             <h2 class="heading-secondary heading-secondary--inline">{{ group.subheading }}</h2>
         </div>
 
-        <!-- figure imgae -->
+        <!-- figure image -->
         <div class="group-horizontal__item">
             <div class="figure">
                 <img class="figure__image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
@@ -123,33 +124,20 @@ layout : custom
             </div>
         </div>
 
-        <!-- text -->
-        <!-- <div class="group-horizontal__item"> -->
-            <!-- <p class="paragraph paragraph--inline"> -->
-                <!-- {{ subgroup.caption }} -->
-            <!-- </p> -->
-        <!-- </div> -->
-
         <!-- link -->
-        <div class="group-horizontal__item group-horizontal__item--text">
-            <!-- url link -->
+        <div class="group-horizontal__item">
             {% if subgroup.content.url %}
             <a class="paragraph group-horizontal__link" href="{{ subgroup.content.url }}">
                 {{ subgroup.content.url }}
             </a>
-
-            <!-- youtube link -->
-            {% elsif subgroup.content.youtube %}
-            <a class="paragraph group-horizontal__link" href="{{ subgroup.content.youtube }}">
-                {{ subgroup.content.youtube }}
-            </a>
-
-            <!-- no link message -->
+            {% elsif subgroup.alt-link %}
+            <a class="paragraph group-horizontal__link" href="{{ subgroup.alt-link }}">
+                {{ subgroup.alt-link }}
+            </a>            
             {% else %}
             <p class="paragraph group-horizontal__link">
                 no link provided
             </p>
-
             {% endif %}
          </div>
 
@@ -157,6 +145,7 @@ layout : custom
     {% endfor %}
     {% else %}
     <div class='group-horizontal'>
+        
         <!-- heading -->
         <div class="group-horizontal__item">
             <h2 class="heading-secondary heading-secondary--inline">{{ group.subheading }}</h2>
@@ -174,34 +163,20 @@ layout : custom
             </div>
         </div>
 
-        <!-- text -->
-        <!-- <div class="group-horizontal__item"> -->
-            <!-- <p class="paragraph paragraph--inline"> -->
-                <!-- {{ group.caption }} -->
-            <!-- </p> -->
-        <!-- </div> -->
-
         <!-- link -->
         <div class="group-horizontal__item">
-
-            <!-- url link -->
             {% if group.content.url %}
             <a class="paragraph group-horizontal__link" href="{{ group.content.url }}">
                 {{ group.content.url }}
             </a>
-
-            <!-- youtube link -->
-            {% elsif group.content.youtube %}
-            <a class="paragraph group-horizontal__link" href="{{ group.content.youtube }}">
-                {{ group.content.youtube }}
+            {% elsif group.alt-link %}
+            <a class="paragraph group-horizontal__link" href="{{ group.alt-link }}">
+                {{ group.alt-link }}
             </a>
-
-            <!-- no link message -->
             {% else %}
             <p class="paragraph group-horizontal__link">
                 no link provided
             </p>
-
             {% endif %}
          </div>
 
@@ -212,9 +187,7 @@ layout : custom
 {% endfor %}
 </div>
 
-<!-- NAVIGATION BUTTONS -->
-
-<!-- toggle button -->
+<!-- TOGGLE BUTTON -->
 <div class="toggle" id="display-toggle">
     <input type="checkbox" class="toggle__checkbox" id="display-toggle-checkbox">
 
@@ -225,7 +198,7 @@ layout : custom
                     <i class="fas fa-th"></i>
                 </span>
                 <span class="toggle__text toggle__text--annotation">
-                    GRID VIEW
+                    GRID
                 </span>
             </div>
             <div class="toggle__side toggle__side--back">
@@ -233,7 +206,7 @@ layout : custom
                     <i class="fas fa-list"></i>
                 </span>
                 <span class="toggle__text toggle__text--annotation">
-                    LINK VIEW
+                    LINK
                 </span>
             </div> 
         </div>

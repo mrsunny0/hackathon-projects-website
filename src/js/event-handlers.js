@@ -96,14 +96,7 @@ change_popup_close_href(false) // invert popup href so they go nowhere
 window.addEventListener('scroll', () => {
     // innerHeight is 100vh in javascript html viewport meta
     // grid and link button on/off using opacity changes
-    if (window.pageYOffset >= window.innerHeight * .15) {
-        display_toggle.style.opacity = 1
-    } else {
-        display_toggle.style.opacity = 0
-    }
-
-    // do the same for the navigation button
-    if (window.pageYOffset >= window.innerHeight * 0.5) {
+    if (window.pageYOffset >= window.innerHeight * 0.95) {
         navigation.style.opacity = 1
     } else {
         navigation.style.opacity = 0
@@ -111,7 +104,6 @@ window.addEventListener('scroll', () => {
 })
 
 // initial states
-display_toggle.style.opacity = 0
 navigation.style.opacity = 0
 
 /***********************
@@ -131,34 +123,4 @@ const navigation_navitem = navigation.querySelector(".navigation__item");
         }
     })
 })
-
-/************************************
- * pause all active iframes on close
- ************************************/
-// get all close popup buttons
-var close_buttons = document.querySelectorAll(".popup__close")
-
-// loop through each close button
-// access its 2 parents above,
-// then access popup__left, and then the iframe, and set an onClick event listener
-// as of ES6, use let to get block scope, rather than hoisted functional scope variables
-for (const close_button of close_buttons) {
-    let popup = close_button.parentElement.parentElement;
-
-    // check if there are any youtube iframes
-    let youtubeIframe = popup.querySelector(".popup__left--youtube")
-    if (youtubeIframe != null) {
-        // post request to stop youtube API
-        // last answer here: https://stackoverflow.com/questions/12522291/pausing-youtube-iframe-api-in-javascript
-        youtubeIframe.contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*')
-    }
-
-    // check if there are any videos
-    let video = popup.querySelector(".popup__left--video")
-    if (video) {
-        close_button.addEventListener("click", () => {
-            video.pause()
-        })
-    }
-}
 
