@@ -61,43 +61,44 @@
         caption: Sloan Healthcare Innovation Prize (2018)
         alt: yyy
           
-# - id: id2
-#   heading: Music
-#   description: description
-#   group: 
-#     - subheading: Air Guitar
-#       subgroup: 
-#         - img: assets/img/250.png
-#           caption: xxx
-#           alt: xxx
-#           content:
-#             url: https://www.instructables.com/id/Air-Guitar/
-
-#         - img: assets/img/500.png
-#           caption: yyy
-#           alt: yyy
-#           content:
-#             youtube: https://www.youtube.com/embed/XT88i8xv_sg
-      
-#     - subheading: Interactive DJ
-#       subgroup: 
-#         - img: assets/img/250.png
-#           caption: xxx
-#           alt: xxx
-#           content:
-#             youtube: https://www.youtube.com/embed/F6OSh8guKlE
-
-#         - img: assets/img/500.png
-#           caption: yyy
-#           alt: yyy
-#           content:
-#             youtube: https://www.youtube.com/embed/4wiQNlH6ooY
-
-#         - img: assets/img/500.png
-#           caption: yyy
-#           alt: yyy
-#           content:
-#             youtube: https://www.youtube.com/embed/SomgTNd4GyY
+- id: id2
+  heading: Music
+  description: description
+  group: 
+    - subheading: Air Guitar
+      subgroup: 
+        - img: assets/img/music/airguitar-stock.jpg
+          content:
+            url: https://www.instructables.com/id/Air-Guitar/
+            alt-link: https://www.instructables.com/id/Air-Guitar/
+          caption: xxx
+          alt: xxx
+          # 
+        - img: assets/img/500.png
+          content:
+            url: https://www.youtube.com/embed/XT88i8xv_sg
+          caption: yyy
+          alt: yyy       
+      # 
+    - subheading: Interactive DJ
+      subgroup: 
+        - img: assets/img/music/dj-touch.jpg
+          content:
+            url: https://www.youtube.com/embed/F6OSh8guKlE
+          caption: xxx
+          alt: xxx
+          # 
+        - img: assets/img/music/dj-ui.jpg
+          content:
+            url: https://www.youtube.com/embed/4wiQNlH6ooY
+          caption: yyy
+          alt: yyy
+          # 
+        - img: assets/img/500.png
+          content:
+            url: https://www.youtube.com/embed/SomgTNd4GyY
+          caption: yyy
+          alt: yyy
 
 # - id: id3
 #   heading: Wearables
