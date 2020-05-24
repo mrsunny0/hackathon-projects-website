@@ -1,4 +1,4 @@
-- id: id4
+- id: id1
   heading: Hackathons
   description: description
   group: 
@@ -47,7 +47,7 @@
         content:
           url: http://www.sloan-hbc.mit.edu/
           
-- id: id1
+- id: id2
   heading: Music
   description: description
   group: 
@@ -85,7 +85,7 @@
           content:
             youtube: https://www.youtube.com/embed/SomgTNd4GyY
 
-- id: id2
+- id: id3
   heading: Wearables
   description: description
   group: 
@@ -109,7 +109,7 @@
         content:
           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html                    
 
-- id: id3
+- id: id4
   heading: Artificial Intelligence
   description: description
   group: 
@@ -139,3 +139,37 @@
         alt: virus
         content:
           url: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
+
+- id: id5
+  heading: Communication
+  description: description
+  group: 
+  - subheading: Communication Lab
+    subgroup: 
+      - img: assets/img/250.png
+        caption: pizza
+        alt: pizza
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+
+      - img: assets/img/250.png
+        caption: pizza
+        alt: pizza
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+
+      - img: assets/img/250.png
+        caption: pizza
+        alt: pizza
+        content:
+          url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html  
+
+  - subheading: Teaching Leadership
+    img: assets/img/250.png
+    content:
+      url: https://howtogeneratealmostanything.com/      
+
+  - subheading: Pitch Competitions 
+    img: assets/img/250.png
+    content:
+      url: https://howtogeneratealmostanything.com/              
