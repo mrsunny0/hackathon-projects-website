@@ -23,34 +23,41 @@
       #   alt: yyy
     # 
   - subheading: Art & Fashion<br>(2015 & 2016)
-    img: assets/img/250.png
+    img: assets/img/hackathons/arts.jpg
     content:
       url: https://mrsunny0.github.io/template-gh-pages/
     caption: Participated in the hacking arts. The first project was using facial recogniztion of Intel's new <a href="https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html">RealSense Technology</a>
     alt:
     # 
-  - subheading: Design & Media<br>(2016)
-    img: assets/img/250.png
-    caption: I actually facilitated this competition with the Design Lab
-    alt:
-    content:
-      url: https://mrsunny0.github.io/template-gh-pages/
+  - subheading: Design & Media<br>(2016 & 2017)
+    subgroup:
+    - img: assets/img/hackathons/make++.jpg
+      content:
+        url: https://player.vimeo.com/video/212263257
+      caption: I actually facilitated this competition with the Design Lab
+      alt:
+    - img: assets/img/hackathons/make++.jpg
+      content:
+        url: https://player.vimeo.com/video/212263257
+      caption: I actually facilitated this competition with the Design Lab
+      alt:
     # 
   - subheading: Healthtech<br>(2014-2018)
     subgroup: 
-      - img: assets/img/250.png
-        content:
-          url: http://www.hackingpediatrics.com/
-        caption: Hacking pediatrics (2014)
-        alt: xxx
-      - img: assets/img/500.png
+      - img: assets/img/hackathons/grandhack.jpg
         content:
           url: https://grandhack.mit.edu/
         caption: Grand Hack (2015) 
         alt: yyy
-      - img: assets/img/500.png
+      - img: assets/img/hackathons/pediatrics.jpg
         content:
-          url: http://www.sloan-hbc.mit.edu/
+          url: http://www.hackingpediatrics.com/
+        caption: Hacking pediatrics (2014)
+        alt: xxx
+      - img: assets/img/hackathons/shbc-logo.jpg
+        content:
+          image: assets/img/hackathons/shbc-pitch.jpg
+          alt-link: http://www.sloan-hbc.mit.edu/
         caption: Sloan Healthcare Innovation Prize (2018)
         alt: yyy
           
