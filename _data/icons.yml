@@ -1,11 +1,11 @@
 - label: Code
-  icon: fas fa-code
+  icon: code
   href: https://github.com/mrsunny0/template-gh-pages
 
 - label: Github
-  icon: fab fa-github
+  icon: github
   href: https://www.github.com/mrsunny0
 
 - label: Youtube
-  icon: fab fa-youtube
+  icon: youtube
   href: https://www.youtube.com/playlist?list=PLNIQQVT5BsFQ4xswbctlwl8YJhUmUqdMb
