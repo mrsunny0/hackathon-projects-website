@@ -5,61 +5,72 @@
   - subheading: Technology<br>(2014-2015)
     subgroup: 
       - img: assets/img/hackathons/liveworx.jpg
+        alt: Liveworx hacakthon
         content:
-          url: https://www.youtube.com/embed/BzpZbCQDGaM
-        caption: Liveworx Mobility Hackathon, this is where we met steve wozniak 
-        alt: xxx
+          youtube: https://www.youtube.com/embed/BzpZbCQDGaM
+          alt-link: 
+        caption: 
+         short: Liveworx Mobility Hackathon, this is where we met steve wozniak 
+         popup: 
         # 
       - img: assets/img/hackathons/present.jpg
+        alt: Liveworx presentation
         content:
           image: assets/img/hackathons/swoz.jpg
-        caption: Liveworx Mobility Hackathon, this is where we met steve wozniak 
-        alt: xxx
-        # 
-      # - img: assets/img/hackathons/liveworx.jpg
-      #   content:
-      #     url: https://newsroom.intel.com/press-kits/intel-developer-forum-san-francisco-2015/
-      #   caption: Intel Developer Hackathon
-      #   alt: yyy
+          alt-link: 
+        caption: 
+          short:
+          popup: 
     # 
   - subheading: Art & Fashion<br>(2015 & 2016)
     img: assets/img/hackathons/arts.jpg
+    alt: Art and fashion hackathon
     content:
-      url: https://mrsunny0.github.io/template-gh-pages/
-    caption: Participated in the hacking arts. The first project was using facial recogniztion of Intel's new <a href="https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html">RealSense Technology</a>
-    alt:
+      url: # change this
+      alt-link: 
+    caption: 
+      short: Participated in the hacking arts. The first project was using facial recogniztion of Intel's new <a href="https://www.intel.com/content/www/us/en/architecture-and-technology/realsense-overview.html">RealSense Technology</a>
+      popup: 
     # 
   - subheading: Design & Media<br>(2016 & 2017)
     subgroup:
-    - img: assets/img/hackathons/make++.jpg
-      content:
-        url: https://player.vimeo.com/video/212263257
-      caption: I actually facilitated this competition with the Design Lab
-      alt:
-    - img: assets/img/hackathons/make++.jpg
-      content:
-        url: https://player.vimeo.com/video/212263257
-      caption: I actually facilitated this competition with the Design Lab
-      alt:
+    img: assets/img/hackathons/make++.jpg
+    alt: Makeme++ hackathon
+    content:
+      url: https://player.vimeo.com/video/212263257
+      alt-link: 
+    caption: 
+      short: I actually facilitated this competition with the Design Lab
+      popup: 
     # 
   - subheading: Healthtech<br>(2014-2018)
     subgroup: 
       - img: assets/img/hackathons/grandhack.jpg
+        alt: MIT Grand Hack
         content:
-          url: https://grandhack.mit.edu/
-        caption: Grand Hack (2015) 
-        alt: yyy
+          youtube: https://youtu.be/_nnAwDQAYfM # backpack stuff 
+          alt-link: https://grandhack.mit.edu/
+        caption: 
+          short: Grand Hack (2015) 
+          popup: 
+        # 
       - img: assets/img/hackathons/pediatrics.jpg
+        alt: Hacking pediatrics competition
         content:
-          url: http://www.hackingpediatrics.com/
-        caption: Hacking pediatrics (2014)
-        alt: xxx
+          image: 
+          link: http://www.hackingpediatrics.com/
+        caption: 
+          short: Hacking pediatrics (2014)
+          popup: 
+        # 
       - img: assets/img/hackathons/shbc-logo.jpg
+        alt: Sloan health business competition
         content:
           image: assets/img/hackathons/shbc-pitch.jpg
           alt-link: http://www.sloan-hbc.mit.edu/
-        caption: Sloan Healthcare Innovation Prize (2018)
-        alt: yyy
+        caption:
+          short: Sloan Healthcare Innovation Prize (2018)
+          popup: 
           
 - id: id2
   heading: Music
@@ -68,37 +79,46 @@
     - subheading: Air Guitar
       subgroup: 
         - img: assets/img/music/airguitar-stock.jpg
-          content:
-            url: https://www.instructables.com/id/Air-Guitar/
-            alt-link: https://www.instructables.com/id/Air-Guitar/
-          caption: xxx
           alt: xxx
+          content:
+            image: 
+            alt-link: https://www.instructables.com/id/Air-Guitar/
+          caption:
+            short:
+            popup: 
           # 
         - img: assets/img/500.png
-          content:
-            url: https://www.youtube.com/embed/XT88i8xv_sg
-          caption: yyy
           alt: yyy       
+          content:
+            youtube: https://www.youtube.com/embed/XT88i8xv_sg
+            alt-link: # show image of David and I
+          caption: yyy
       # 
     - subheading: Interactive DJ
       subgroup: 
         - img: assets/img/music/dj-touch.jpg
+          alt: DJ touch set
           content:
-            url: https://www.youtube.com/embed/F6OSh8guKlE
-          caption: xxx
-          alt: xxx
+            youtube: https://www.youtube.com/embed/F6OSh8guKlE
+            alt-link: https://youtu.be/F6OSh8guKlE
+          caption: 
+            short:
+            popup: 
           # 
         - img: assets/img/music/dj-ui.jpg
+          alt: DJ touch interface
           content:
-            url: https://www.youtube.com/embed/4wiQNlH6ooY
-          caption: yyy
-          alt: yyy
+            youtube: https://www.youtube.com/embed/4wiQNlH6ooY
+            alt-link: https://youtu.be/4wiQNlH6ooY
+          caption: 
+            short:
+            popup: 
           # 
         - img: assets/img/500.png
+          alt: yyy
           content:
             url: https://www.youtube.com/embed/SomgTNd4GyY
-          caption: yyy
-          alt: yyy
+          caption: https://youtu.be/SomgTNd4GyY
 
 # - id: id3
 #   heading: Wearables
