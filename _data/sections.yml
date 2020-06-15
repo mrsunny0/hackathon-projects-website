@@ -92,7 +92,9 @@
           content:
             youtube: https://www.youtube.com/embed/XT88i8xv_sg
             alt-link: # show image of David and I
-          caption: yyy
+          caption: 
+            short:
+            popup: 
       # 
     - subheading: Interactive DJ
       subgroup: 
@@ -176,7 +178,7 @@
       short: pizza
       popup: 
     # 
-  - subheading: AI Projects    
+  - subheading: Sewable Circuitry   
     img: assets/img/250.png
     alt: virus
     content:
