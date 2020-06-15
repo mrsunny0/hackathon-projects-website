@@ -79,7 +79,7 @@
     - subheading: Air Guitar
       subgroup: 
         - img: assets/img/music/airguitar-stock.jpg
-          alt: xxx
+          alt: Air guitar
           content:
             image: 
             alt-link: https://www.instructables.com/id/Air-Guitar/
@@ -88,7 +88,7 @@
             popup: 
           # 
         - img: assets/img/500.png
-          alt: yyy       
+          alt: Demo of air guitar       
           content:
             youtube: https://www.youtube.com/embed/XT88i8xv_sg
             alt-link: # show image of David and I
@@ -115,96 +115,78 @@
             popup: 
           # 
         - img: assets/img/500.png
-          alt: yyy
+          alt: DJ touch example
           content:
             url: https://www.youtube.com/embed/SomgTNd4GyY
           caption: https://youtu.be/SomgTNd4GyY
 
-# - id: id3
-#   heading: Wearables
-#   description: description
-#   group: 
-#   - subheading: AI Projects
-#     subgroup: 
-#       - img: assets/img/250.png
-#         caption: pizza
-#         alt: pizza
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+- id: id4
+  heading: Artificial Intelligence
+  description: description
+  group: 
+  - subheading: AI Projects
+    subgroup: 
+      - img: assets/img/250.png
+        alt: pizza
+        content:
+          image: 
+          alt-link: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+        caption: 
+          short: pizza
+          popup: 
+        # 
+      - img: assets/img/500.png
+        alt: perfume
+        content:
+          image:
+          alt-link: https://howtogeneratealmostanything.com/perfume/2018/09/17/episode4.html
+        caption: 
+          short: perfurme
+          popup: 
+        # 
+      - img: assets/img/500.png
+        alt: chocolate
+        content:
+          image:
+          alt-link: https://howtogeneratealmostanything.com/food/2018/10/10/episode6.html
+        caption: 
+          short: chocolate
+          popup:           
+        # 
+      - img: assets/img/500.png
+        alt: virus
+        content:
+          image: 
+          alt-link: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
+        caption: 
+          short: virus
+          popup:           
 
-#       - img: assets/img/250.png
-#         caption: pizza
-#         alt: pizza
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+- id: id3
+  heading: Wearables
+  description: description
+  group: 
+  - subheading: Embedded Insoles
+    img: assets/img/250.png
+    alt: pizza
+    content:
+      image: 
+      alt-link: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+    caption: 
+      short: pizza
+      popup: 
+    # 
+  - subheading: AI Projects    
+    img: assets/img/250.png
+    alt: virus
+    content:
+      image: 
+      alt-link: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
+    caption: 
+      short: virus
+      popup:   
 
-#       - img: assets/img/250.png
-#         caption: pizza
-#         alt: pizza
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html                    
-
-# - id: id4
-#   heading: Artificial Intelligence
-#   description: description
-#   group: 
-#   - subheading: Pinar Yanardag
-#     img: assets/img/250.png
-#     content:
-#       url: https://howtogeneratealmostanything.com/
-#   - subheading: AI Projects
-#     subgroup: 
-#       - img: assets/img/250.png
-#         caption: pizza
-#         alt: pizza
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
-#       - img: assets/img/500.png
-#         caption: perfume
-#         alt: perfume
-#         content:
-#           url: https://howtogeneratealmostanything.com/perfume/2018/09/17/episode4.html
-#       - img: assets/img/500.png
-#         caption: chocolate
-#         alt: chocolate
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/10/10/episode6.html
-#       - img: assets/img/500.png
-#         caption: virus
-#         alt: virus
-#         content:
-#           url: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
-
-# - id: id5
-#   heading: Communication
-#   description: description
-#   group: 
-#   - subheading: Communication Lab
-#     subgroup: 
-#       - img: assets/img/250.png
-#         caption: pizza
-#         alt: pizza
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
-
-#       - img: assets/img/250.png
-#         caption: pizza
-#         alt: pizza
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
-
-#       - img: assets/img/250.png
-#         caption: pizza
-#         alt: pizza
-#         content:
-#           url: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html  
-
-#   - subheading: Teaching Leadership
-#     img: assets/img/250.png
-#     content:
-#       url: https://howtogeneratealmostanything.com/      
-
-#   - subheading: Pitch Competitions 
-#     img: assets/img/250.png
-#     content:
-#       url: https://howtogeneratealmostanything.com/              
+  # - subheading: Pinar Yanardag
+  #   img: assets/img/250.png
+  #   content:
+  #     url: https://howtogeneratealmostanything.com/        
