@@ -211,11 +211,11 @@
         short: 
         popup: 
     # 
-  - subheading: Sewable Circuitry   
-    img: assets/img/250.png
-    alt: virus
+  - subheading: Collision detection   
+    img: assets/img/wearables/backpack-circle.jpg
+    alt: Smart backpack
     content:
-      image: 
+      youtube: https://www.youtube.com/embed/_nnAwDQAYfM 
       alt-link: 
     caption: 
       short: 
