@@ -78,28 +78,28 @@
   group: 
     - subheading: Air Guitar
       subgroup: 
-        - img: assets/img/music/airguitar-stock.jpg
+        - img: assets/img/music/eguitar.jpg
           alt: Air guitar
           content:
-            image: 
+            youtube: https://www.youtube.com/embed/XT88i8xv_sg
             alt-link: https://www.instructables.com/id/Air-Guitar/
           caption:
             short:
             popup: 
           # 
-        - img: assets/img/500.png
+        - img: assets/img/music/idf-2015.jpg
           alt: Demo of air guitar       
           content:
-            youtube: https://www.youtube.com/embed/XT88i8xv_sg
-            alt-link: # show image of David and I
+            image-contain: assets/img/music/intel-conference.jpg
+            alt-link: 
           caption: 
             short:
-            popup: 
+            popup: We attended a conference Intel Developer 2015
       # 
     - subheading: Interactive DJ
       subgroup: 
-        - img: assets/img/music/dj-touch.jpg
-          alt: DJ touch set
+        - img: assets/img/music/djset.jpg
+          alt: Dj set
           content:
             youtube: https://www.youtube.com/embed/F6OSh8guKlE
             alt-link: https://youtu.be/F6OSh8guKlE
@@ -107,8 +107,8 @@
             short:
             popup: 
           # 
-        - img: assets/img/music/dj-ui.jpg
-          alt: DJ touch interface
+        - img: assets/img/music/dj-touch.jpg
+          alt: DJ touch example
           content:
             youtube: https://www.youtube.com/embed/4wiQNlH6ooY
             alt-link: https://youtu.be/4wiQNlH6ooY
@@ -116,13 +116,13 @@
             short:
             popup: 
           # 
-        - img: assets/img/500.png
-          alt: DJ touch example
+        - img: assets/img/music/theremin.jpg
+          alt: DJ touch interface
           content:
             url: https://www.youtube.com/embed/SomgTNd4GyY
           caption: https://youtu.be/SomgTNd4GyY
 
-- id: id4
+- id: id3
   heading: Artificial Intelligence
   description: description
   group: 
@@ -164,7 +164,7 @@
           short: virus
           popup:           
 
-- id: id3
+- id: id4
   heading: Wearables
   description: description
   group: 
@@ -188,7 +188,16 @@
       short: virus
       popup:   
 
-  # - subheading: Pinar Yanardag
-  #   img: assets/img/250.png
-  #   content:
-  #     url: https://howtogeneratealmostanything.com/        
+- id: id5
+  heading: Robotics
+  description:
+  group:
+  - subheading: 
+    img: 
+    alt: Robot arm
+    content:
+      youtube: https://www.youtube.com/embed/44w5sPOLTsI
+      alt-link:
+    caption:
+      short:
+      popup:
