@@ -182,15 +182,34 @@
   heading: Wearables
   description: description
   group: 
-  - subheading: Embedded Insoles
-    img: assets/img/250.png
-    alt: pizza
-    content:
-      image: 
-      alt-link: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
-    caption: 
-      short: pizza
-      popup: 
+  - subheading: Responsive clothing
+    subgroup:
+    - img: assets/img/wearables/shirt-circle.jpg
+      alt: Embedded shirt
+      content:
+        image: 
+        alt-link: 
+      caption: 
+        short: 
+        popup: 
+      # 
+    - img: assets/img/wearables/circuit-circle.jpg
+      alt: circuit
+      content:
+        image: 
+        alt-link: 
+      caption: 
+        short: 
+        popup: 
+      # 
+    - img: assets/img/wearables/insole-circle.jpg
+      alt: embedded shoe
+      content:
+        image: 
+        alt-link: 
+      caption: 
+        short: 
+        popup: 
     # 
   - subheading: Sewable Circuitry   
     img: assets/img/250.png
