@@ -165,6 +165,20 @@
           popup:           
 
 - id: id4
+  heading: Robotics
+  description:
+  group:
+  - subheading: 
+    img: assets/img/robotics/3d-circle.jpg
+    alt: Robot arm
+    content:
+      youtube: https://www.youtube.com/embed/44w5sPOLTsI
+      alt-link:
+    caption:
+      short:
+      popup:
+
+- id: id5
   heading: Wearables
   description: description
   group: 
@@ -187,17 +201,3 @@
     caption: 
       short: virus
       popup:   
-
-- id: id5
-  heading: Robotics
-  description:
-  group:
-  - subheading: 
-    img: 
-    alt: Robot arm
-    content:
-      youtube: https://www.youtube.com/embed/44w5sPOLTsI
-      alt-link:
-    caption:
-      short:
-      popup:
