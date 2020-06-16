@@ -87,7 +87,7 @@
             short:
             popup: 
           # 
-        - img: assets/img/music/idf-2015.jpg
+        - img: assets/img/music/idf-stage.jpg
           alt: Demo of air guitar       
           content:
             image-contain: assets/img/music/intel-conference.jpg
@@ -120,56 +120,70 @@
           alt: DJ touch interface
           content:
             url: https://www.youtube.com/embed/SomgTNd4GyY
-          caption: https://youtu.be/SomgTNd4GyY
+          caption: 
+            short:
+            popup:           
 
 - id: id3
   heading: Artificial Intelligence
   description: description
   group: 
-  - subheading: AI Projects
-    subgroup: 
-      - img: assets/img/250.png
-        alt: pizza
-        content:
-          image: 
-          alt-link: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
-        caption: 
-          short: pizza
-          popup: 
-        # 
-      - img: assets/img/500.png
-        alt: perfume
-        content:
-          image:
-          alt-link: https://howtogeneratealmostanything.com/perfume/2018/09/17/episode4.html
-        caption: 
-          short: perfurme
-          popup: 
-        # 
-      - img: assets/img/500.png
-        alt: chocolate
-        content:
-          image:
-          alt-link: https://howtogeneratealmostanything.com/food/2018/10/10/episode6.html
-        caption: 
-          short: chocolate
-          popup:           
-        # 
-      - img: assets/img/500.png
-        alt: virus
-        content:
-          image: 
-          alt-link: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
-        caption: 
-          short: virus
-          popup:           
+  - subheading: Pizza Recipes
+    img: assets/img/ai/pizza-small-crop.jpg
+    alt: pizza
+    content:
+      youtube: 
+      alt-link: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
+    caption: 
+      short: 
+      popup : 
+    # 
+  - subheading: Creating perfume
+    img: assets/img/ai/perfume-small-crop.jpg 
+    alt: perfume
+    content:
+      youtube: 
+      alt-link: https://howtogeneratealmostanything.com/perfume/2018/09/17/episode4.html
+    caption: 
+      short: 
+      popup: 
+    # 
+  - subheading: Making chocolate
+    img: assets/img/ai/chocolate-large.jpg
+    alt: chocolate
+    content:
+      youtube: assets/img/ai/chocolate-large.jpg
+      alt-link: https://howtogeneratealmostanything.com/food/2018/10/10/episode6.html
+    caption: 
+      short: 
+      popup:           
+    # 
+  - subheading: Visualizing viruses
+    img: assets/img/ai/virus-small-2-circle.jpg
+    alt: virus
+    content:
+      youtube: assets/img/ai/virus-large.jpg
+      alt-link: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
+    caption: 
+      short: 
+      popup:           
+    # 
+  - subheading: Beeps-and-boops
+    img: assets/img/ai/music-large.jpg
+    alt: music
+    content: 
+      youtube: assets/img/ai/music-large.jpg
+      alt-link: 
+    caption: 
+      short: 
+      popup:           
 
 - id: id4
   heading: Robotics
   description:
   group:
   - subheading: DIY robot painter
-    img: assets/img/robotics/3d-circle.jpg
+    img: assets/img/robotics/3drender.jpg
     alt: Robot arm
     content:
       youtube: https://www.youtube.com/embed/44w5sPOLTsI
