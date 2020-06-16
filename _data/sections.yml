@@ -126,7 +126,7 @@
 
 - id: id3
   heading: Artificial Intelligence
-  description: description
+  description: A variety of projects pioneered by <a href="https://www.linkedin.com/in/pinguar/">Pinar Yanardag</a> PhD, a forward thinker when it comes to machine learning and AI. I merely helped by translating her digital work into a physical medium using my skills in chemistry, materials, and hardware. Refer to her page <a href="https://howtogeneratealmostanything.com/">HowToGenerate</a> for a more in-depth discussion.
   group: 
   - subheading: Pizza Recipes
     img: assets/img/ai/pizza-small-crop.jpg
@@ -200,7 +200,7 @@
   group: 
   - subheading: Responsive clothing
     subgroup:
-    - img: assets/img/wearables/shirt-circle.jpg
+    - img: assets/img/wearables/cloths-stock.jpg
       alt: Embedded shirt
       content:
         youtube: https://www.youtube.com/embed/FxCKFo-FREw 
@@ -209,7 +209,7 @@
         short: 
         popup: 
       # 
-    - img: assets/img/wearables/circuit-circle.jpg
+    - img: assets/img/wearables/shirt-circle.jpg
       alt: circuit
       content:
         youtube: https://www.youtube.com/embed/OsDuLnBH3Yk
