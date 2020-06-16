@@ -168,7 +168,7 @@
   heading: Robotics
   description:
   group:
-  - subheading: 
+  - subheading: DIY robot painter
     img: assets/img/robotics/3d-circle.jpg
     alt: Robot arm
     content:
@@ -187,7 +187,7 @@
     - img: assets/img/wearables/shirt-circle.jpg
       alt: Embedded shirt
       content:
-        image: 
+        youtube: https://www.youtube.com/embed/FxCKFo-FREw 
         alt-link: 
       caption: 
         short: 
@@ -196,16 +196,16 @@
     - img: assets/img/wearables/circuit-circle.jpg
       alt: circuit
       content:
-        image: 
+        youtube: https://www.youtube.com/embed/OsDuLnBH3Yk
         alt-link: 
       caption: 
         short: 
         popup: 
       # 
-    - img: assets/img/wearables/insole-circle.jpg
+    - img: assets/img/wearables/shoe-circle.jpg
       alt: embedded shoe
       content:
-        image: 
+        youtube: https://www.youtube.com/embed/U2PW99Xnyzk
         alt-link: 
       caption: 
         short: 
@@ -216,7 +216,7 @@
     alt: virus
     content:
       image: 
-      alt-link: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
+      alt-link: 
     caption: 
-      short: virus
+      short: 
       popup:   
