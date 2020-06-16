@@ -132,7 +132,7 @@
     img: assets/img/ai/pizza-small-crop.jpg
     alt: pizza
     content:
-      youtube: 
+      youtube: https://www.youtube.com/embed/WVvHCJls3yY
       alt-link: https://howtogeneratealmostanything.com/food/2018/08/30/episode2.html
     caption: 
       short: 
@@ -142,7 +142,7 @@
     img: assets/img/ai/perfume-small-crop.jpg 
     alt: perfume
     content:
-      youtube: 
+      youtube: https://www.youtube.com/embed/4laSkA3fUdo
       alt-link: https://howtogeneratealmostanything.com/perfume/2018/09/17/episode4.html
     caption: 
       short: 
@@ -152,7 +152,7 @@
     img: assets/img/ai/chocolate-large.jpg
     alt: chocolate
     content:
-      youtube: assets/img/ai/chocolate-large.jpg
+      youtube: https://www.youtube.com/embed/3IamMpd2uMg
       alt-link: https://howtogeneratealmostanything.com/food/2018/10/10/episode6.html
     caption: 
       short: 
@@ -162,7 +162,8 @@
     img: assets/img/ai/virus-small-2-circle.jpg
     alt: virus
     content:
-      youtube: assets/img/ai/virus-large.jpg
+      youtube: https://www.youtube.com/embed/3RjUTrD3Xe8
+      # image: assets/img/ai/virus-large.jpg
       alt-link: https://howtogeneratealmostanything.com/proteins/2018/11/10/episode8.html
     caption: 
       short: 
@@ -172,7 +173,8 @@
     img: assets/img/ai/music-large.jpg
     alt: music
     content: 
-      youtube: assets/img/ai/music-large.jpg
+      youtube: https://www.youtube.com/embed/YPqD79I0Q7Q
+      # image: assets/img/ai/music-large.jpg
       alt-link: 
     caption: 
       short: 
